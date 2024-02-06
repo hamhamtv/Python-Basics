@@ -29,18 +29,24 @@ print(astring.endswith("abcdefg")) # It does not end in abcdefg
 # Output: False
 
 afewwords = astring.split(" ") # Splits astring into two entries of a list at the here defined position(This time at space)
-afewwords2 = astring.split[1]
 
-print(afewwords2)
+print(afewwords)
 
+# Output: ['Hello', 'World!']
 
-# Should know at this point
 
 # The len() function returns the number of items (length) in an object.
 languages = ['Python', 'Java', 'JavaScript']
+objectnumber = len(languages)
 
-# compute the length of languages
-length = len(languages)
-print(length)
+print("\nThe number of Codinglanguages in my list is %d. \nMy list consists of following coding languages: %s" % (objectnumber, languages))
 
 # Output: 3
+
+
+js = "javascript"
+length = len(js) # lenght of the word "javascript"
+
+print("\nThe length of the word %s is %d" % (js, length))
+
+# Output: 10
