@@ -28,7 +28,7 @@ print(astring.startswith("Hello")) # It does start in Hello
 print(astring.endswith("abcdefg")) # It does not end in abcdefg
 # Output: False
 
-afewwords = astring.split(" ") # Splits astring into two entries of a list at the here defined position(This time at space)
+afewwords = astring.split(" ") # Splits astring into two entries of a list at the here defined position(This time, at space)
 
 print(afewwords)
 
